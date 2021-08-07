@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,15 +10,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /* Navigation Styling */
 .navbar {
+  position: fixed !important;
+  width: 100%;
   padding: 10px;
-
+  z-index: 100;
+  transition: 0.2s;
+  opacity: 0.5;
 }
 
 .navbar-logo {
   width: 30vh;
   height: auto;
+  padding-left: 15px;
+}
+
+.scrolling-active {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+/* Homepage Styling */
+.homeImgContainer {
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.topImg {
+  background-image: url('./images/0A2C526214FD44AF9751D8A6E5EEA2E9.webp');
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  filter: brightness(0.7);
+  background-position: center;
+}
+
+.headerOneText {
+  top: 50vh;
+  width: 100%;
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  text-align: center;
+  letter-spacing: 6px;
+}
+
+/* about */
+.about {
+  height: 100vh;
 }

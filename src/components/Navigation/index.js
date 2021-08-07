@@ -8,8 +8,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../images/logo-text.png';
 
 const Navigation = () => {
+
+    window.addEventListener('scroll', function() {
+        let navbar = document.querySelector('nav');
+        let logo = document.querySelector('.navbar-logo')
+        let windowPosition = window.scrollY > 300;
+
+        navbar.classList.toggle('scrolling-active', windowPosition);
+        logo.classList.toggle('scrolling-logo-active', windowPosition);
+    })
+
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className="nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <img className="navbar-logo" href="#home" src={logo}></img>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
