@@ -5,9 +5,11 @@ const Home = () => {
     return (
         <section>
             <div className="homeImgContainer">
-            <h1 className="headerOneText">Northern Lights</h1>
+                <h1 className="headerOneText">Northern Lights</h1>
                 <Parallax speed={3}>
-                    <img alt="northern lights building" className="topImg"></img>
+                    <div className="topImgBackground">
+                        <img className="topImg"></img>
+                    </div>
                 </Parallax>
             </div>
         </section>

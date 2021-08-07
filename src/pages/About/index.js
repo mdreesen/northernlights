@@ -25,8 +25,8 @@ const About = () => {
         <section className="about">
             <div className="aboutImgContainer">
                 <div className="text">Here is some text</div>
-                <img alt="living room" className="aboutImgOne"></img>
-                <img alt="kitchen" className="aboutImgTwo"></img>
+                <img className="aboutImgOne"></img>
+                <img className="aboutImgTwo"></img>
                 {/* <Controller>
                     <Scene duration={600} pin>
                         <div>Sticky Example</div>
