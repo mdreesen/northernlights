@@ -2,7 +2,7 @@
 
 // Components
 import Navigation from './components/Navigation';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';

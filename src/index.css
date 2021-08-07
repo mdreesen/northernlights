@@ -18,7 +18,7 @@ code {
   width: 100%;
   padding: 10px;
   z-index: 100;
-  transition: 0.2s;
+  transition: 0.3s;
   opacity: 0.5;
 }
 
@@ -29,8 +29,9 @@ code {
 }
 
 .scrolling-active {
-  transition: 0.2s;
+  transition: 0.5s;
   opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 /* Homepage Styling */
@@ -64,4 +65,27 @@ code {
 /* about */
 .about {
   height: 100vh;
+}
+
+.aboutImgContainer {
+  height: 100%;
+  width: 100%;
+  display: block;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 50vh auto 50vh auto;
+}
+
+.aboutImgOne {
+  background-image: url('./images/636A05D7B845490198E4AA972AA94377.webp');
+  height: 40vh;
+  width: 60vh;
+  background-position: center;
+}
+
+.aboutImgTwo {
+  background-image: url('./images/F6C0ED1AD1974DEA8A54EEA6CAF52AA0.webp');
+  height: 40vh;
+  width: 60vh;
+  background-position: center;
 }

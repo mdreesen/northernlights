@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Nav from 'react-bootstrap/Nav';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Nav from 'react-bootstrap/Nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import Image
@@ -20,7 +20,7 @@ const Navigation = () => {
 
     return (
         <Navbar className="nav" collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <img className="navbar-logo" href="#home" src={logo}></img>
+            <img alt="logo" className="navbar-logo" href="#home" src={logo}></img>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 {/* <Nav className="me-auto">

@@ -3,14 +3,14 @@ import Parallax from 'react-rellax'
 
 const Home = () => {
     return (
-        <div>
+        <section>
             <div className="homeImgContainer">
             <h1 className="headerOneText">Northern Lights</h1>
                 <Parallax speed={3}>
-                    <img className="topImg"></img>
+                    <img alt="northern lights building" className="topImg"></img>
                 </Parallax>
             </div>
-        </div>
+        </section>
     );
 }
 
