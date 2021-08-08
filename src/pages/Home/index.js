@@ -1,8 +1,11 @@
 import React from 'react';
 import Parallax from 'react-rellax'
 
+import About from '../About'
+
 const Home = () => {
     return (
+        <div>
         <section>
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Northern Lights</h1>
@@ -12,6 +15,8 @@ const Home = () => {
                 </Parallax>
             </div>
         </section>
+        <About/>
+        </div>
     );
 }
 

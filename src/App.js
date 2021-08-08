@@ -1,4 +1,4 @@
-// import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Components
 import Navigation from './components/Navigation';
@@ -6,18 +6,22 @@ import Navigation from './components/Navigation';
 
 // Pages
 import Home from './pages/Home';
-import About from './pages/About';
+
+import Interior from './pages/Interior';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navigation/>
-      <div>
-        <Home />
-        <About />
+    <Router>
+      <div className="App">
+        <Navigation />
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/northern-lights-interior" component={Interior}/>
+        </div>
+        {/* <Footer/> */}
       </div>
-      {/* <Footer/> */}
-    </div>
+    </Router>
   );
 }
 
