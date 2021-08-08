@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container'
 
 const Footer = () => {
+
     return (
         <Navbar className="footer" bg="dark" variant="dark">
             <Container>
@@ -16,6 +17,9 @@ const Footer = () => {
                             <p>913 Wisconsin Ave., Suite 104</p>
                             <p>Whitefish, MT 59937</p>
                         </div>
+                        <div className="footer_text_copyright_container">
+                            <p className="footer_text_copyright ">© 2021 | Montana Home Vacations All rights reserved</p>
+                        </div>
                     </div>
                     <div className="footer_section_two">
                         <p className="footer_text">About Us</p>
@@ -26,11 +30,11 @@ const Footer = () => {
                     <div className="footer_section_three">
                         <p className="footer_text">About Us</p>
                         <div className="footer_text_content_three">
-                            <a>Guest Reviews</a>
-                            <a>Contact Us</a>
-                            <a>Property</a>
-                            <a>Management</a>
-                            <a>Owner Login</a>
+                            <a className="footer_link" href="https://www.montanahomevacations.com/testimonials.asp">Guest Reviews</a>
+                            <a className="footer_link" href="https://www.montanahomevacations.com/contact-information.asp">Contact Us</a>
+                            <a className="footer_link" href="https://www.montanahomevacations.com/property-management.htm">Property</a>
+                            <a className="footer_link" href="https://www.montanahomevacations.com/property-management.htm">Management</a>
+                            <a className="footer_link" href="https://reservations.liverez.com/owners/login.asp?logoff=True">Owner Login</a>
                         </div>
                     </div>
                 </Nav>

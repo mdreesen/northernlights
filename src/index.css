@@ -55,9 +55,31 @@
   border-bottom: solid;
 }
 
+.footer_text_copyright_container {
+  width: 320px;
+  height: 111px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer_text_copyright {
+  color: white;
+  font-size: 12px;
+}
+
 .footer_text_content {
   line-height: 18px;
   color: white;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_link:hover {
+  text-decoration: none;
+  color: grey;
 }
 
 .navbar-logo {
@@ -126,21 +148,21 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 25vh 2vh;
+  margin: 18vh 2vh;
 }
 
 .about_two {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 25vh 2vh;
+  margin: 18vh 2vh;
 }
 
 .about_three {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 25vh 2vh;
+  margin: 18vh 2vh;
 }
 
 .about_text {
@@ -195,6 +217,85 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* @media only screen and (max-width: 992px) {
+  .footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: static !important;
+    height: 100%;
+  }
+  
+  .footer_section {
+    height: 30vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .footer_sections {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .footer_section_one {
+    width: 30%;
+    width: 90%;
+    display: flex;
+  }
+  
+  .footer_section_two {
+    width: 90%;
+    display: flex;
+
+  }
+  
+  .footer_section_three {
+    width: 90%;
+    display: flex;
+
+  }
+  
+  .footer_text_content_three {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer_text {
+    color: white;
+    width: 30%;
+    border-bottom: solid;
+  }
+
+  .footer_link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    font-size: 12px;
+    width: 93px;
+  }
+  
+  .footer_text_copyright_container {
+    width: 320px;
+    height: 111px;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .footer_text_copyright {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .footer_text_content {
+    line-height: 18px;
+    color: white;
+  }
+} */
 
 @media only screen and (max-width: 960px) {
 
