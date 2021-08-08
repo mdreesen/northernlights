@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Components
 import Navigation from './components/Navigation';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/northern-lights-interior" component={Interior}/>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </Router>
   );

@@ -9,6 +9,16 @@
   opacity: 0.5;
 }
 
+.footer {
+  z-index: 200;
+  position: relative !important;
+  width: 100%;
+  padding: 10px;
+  height: 26%;
+  /* position: absolute; */
+  bottom: 0px;
+}
+
 .navbar-logo {
   width: 30vh;
   height: auto;
@@ -58,7 +68,7 @@
 
 /* about */
 .about {
-  height: 100vh;
+  height: 200vh;
 }
 
 .aboutImgContainer {
