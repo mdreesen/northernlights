@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 
 // Pages
 import Home from './pages/Home';
-
 import Interior from './pages/Interior';
 
 
@@ -17,9 +16,11 @@ function App() {
         <Navigation />
         <div>
           <Route exact path="/" component={Home} />
-          <Route exact path="/northern-lights-interior" component={Interior}/>
+          <Route exact path="/northern-lights-interior" component={Interior} />
         </div>
-        <Footer/>
+        <div className="footer_section">
+          <Footer/>
+        </div>
       </div>
     </Router>
   );
