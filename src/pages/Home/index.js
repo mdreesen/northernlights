@@ -7,9 +7,8 @@ const Home = () => {
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Northern Lights</h1>
                 <Parallax speed={3}>
-                    <div className="topImgBackground">
-                        <img className="topImg"></img>
-                    </div>
+                    <img className="topImgBackground"></img>
+                    <img className="topImg"></img>
                 </Parallax>
             </div>
         </section>
