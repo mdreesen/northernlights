@@ -7,7 +7,7 @@ const Home = () => {
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Northern Lights</h1>
                 <Parallax speed={3}>
-                    <img className="topImgBackground"></img>
+                    {/* <img className="topImgBackground"></img> */}
                     <img className="topImg"></img>
                 </Parallax>
             </div>
