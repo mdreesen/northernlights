@@ -9,6 +9,10 @@
   opacity: 0.5;
 }
 
+.navbar-nav {
+  margin-left: 18px;
+}
+
 .footer {
   left: 0;
   right: 0;
@@ -111,7 +115,7 @@
 }
 
 .topImg {
-  background-image: url('./images/2D07064DE8654E42B78FD162B34CC5E7.webp');
+  background-image: url('./images/0A2C526214FD44AF9751D8A6E5EEA2E9.webp');
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -222,6 +226,20 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Overview */
+.topImgOverview {
+  background-image: url('./images/2D07064DE8654E42B78FD162B34CC5E7.webp');
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  filter: brightness(0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 @media only screen and (max-width: 992px) {
   .footer {

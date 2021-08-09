@@ -9,7 +9,7 @@ import logo from '../../images/logo-text.png';
 
 const Navigation = () => {
 
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         let navbar = document.querySelector('nav');
         let logo = document.querySelector('.navbar-logo')
         let windowPosition = window.scrollY > 300;
@@ -24,8 +24,9 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto link_bundle">
-                    <Nav.Link href="/">Exterior</Nav.Link>
-                    <Nav.Link href="northern-lights-interior">Interior</Nav.Link>
+                    <Nav.Link href="/">Overview</Nav.Link>
+                    <Nav.Link href="/northern-lights-exterior">Exterior</Nav.Link>
+                    <Nav.Link href="/northern-lights-interior">Interior</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

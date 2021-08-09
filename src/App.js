@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 // import Footer from './components/Footer';
 
 // Pages
-import Home from './pages/Home';
+import Overview from './pages/Overview';
+import Exterior from './pages/Exterior';
 import Interior from './pages/Interior';
 
 // Components, lazy loading
@@ -21,7 +22,8 @@ function App() {
           <Navigation />
         </Suspense>
         <div>
-          <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Overview} />
+          <Route exact path="/northern-lights-exterior" component={Exterior} />
           <Route exact path="/northern-lights-interior" component={Interior} />
         </div>
         <div className="footer_section">

@@ -4,12 +4,12 @@ import Parallax from 'react-rellax'
 // import About from '../About'
 const About = lazy(() => import('../About'))
 
-const Home = () => {
+const Exterior = () => {
     return (
         <div>
             <section>
                 <div className="homeImgContainer">
-                    <h1 className="headerOneText">Northern Lights</h1>
+                    <h1 className="headerOneText">Outside Features</h1>
                     <Parallax speed={3}>
                         {/* <img className="topImgBackground"></img> */}
                         <img className="topImg"></img>
@@ -23,4 +23,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Exterior;
