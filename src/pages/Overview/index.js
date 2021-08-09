@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import Parallax from 'react-rellax';
 
 // import About from '../About'
-const About = lazy(() => import('../About'))
+const OverviewContent = lazy(() => import('../OverviewContent'))
 
 const Overview = () => {
     return (
@@ -17,7 +17,7 @@ const Overview = () => {
             </div>
         </section>
         <Suspense fallback={<div/>}>
-            <About />
+            <OverviewContent />
         </Suspense>
     </div>
     );
