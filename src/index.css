@@ -254,13 +254,38 @@
   display: flex;
   place-content: flex-end;
   position: relative;
+  width: 50%;
+}
+
+.overview_one_container {
+
+}
+
+.overview_two {
+  margin: 20vh 2vh;
 }
 
 .overview_text {
-  width: 30%;
+  width: 92%;
   text-align: left;
-  font-size: 20px;
-  line-height: 35px;}
+  font-size: 30px;
+  line-height: 97px;
+}
+
+.overview_feature_header {
+  margin-bottom: 8vh;
+}
+
+.feature_card_section {
+  display: flex;
+}
+
+.card {
+  margin: 5vh;
+  padding: 0px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
 
 
 
@@ -391,6 +416,15 @@
     background-position: center;
     background-size: cover;
     border: none;
+  }
+
+  .overviewImageOne {
+    width: 100%;
+  }
+
+  .overview_text {
+    line-height: 40px;
+    width: 92%;
   }
 }
 
