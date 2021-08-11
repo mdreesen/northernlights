@@ -26,6 +26,7 @@ const Navigation = () => {
                     <Nav.Link href="/">Overview</Nav.Link>
                     <Nav.Link href="/northern-lights-exterior">Exterior</Nav.Link>
                     <Nav.Link href="/northern-lights-interior">Interior</Nav.Link>
+                    <Nav.Link href="/northern-lights-tour">Tour</Nav.Link>
                     {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
