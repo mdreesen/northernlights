@@ -8,7 +8,7 @@ const Interior = () => {
         <section>
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Inside Features</h1>
-                <Parallax speed={3}>
+                <Parallax speed={1}>
                     {/* <img className="topImgBackground"></img> */}
                     <img className="topImgInterior"></img>
                 </Parallax>

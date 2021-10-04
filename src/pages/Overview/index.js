@@ -10,7 +10,7 @@ const Overview = () => {
         <section>
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Northern Lights</h1>
-                <Parallax speed={3}>
+                <Parallax speed={1}>
                     {/* <img className="topImgBackground"></img> */}
                     <img className="topImgOverview"></img>
                 </Parallax>
