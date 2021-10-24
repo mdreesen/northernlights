@@ -6,7 +6,7 @@
   padding: 10px;
   z-index: 100;
   transition: 0.3s;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .navbar-nav {
@@ -364,8 +364,20 @@
 }
 
 /* Overview */
-.topImgOverview {
+.summer {
   background-image: url('./images/2D07064DE8654E42B78FD162B34CC5E7.webp');
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  filter: brightness(0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fall {
+  background-image: url('./images/northernlightfall.webp');
   position: absolute;
   width: 100%;
   height: 100vh;
