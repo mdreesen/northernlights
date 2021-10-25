@@ -26,7 +26,7 @@ const OverviewContent = () => {
             ) : (
                     <div data-aos="fade-in" className="aboutImgContainer">
                         <div className="about_one">
-                            <img className="overviewImageOne"></img>
+                            <img className={`greatroom_${seasons()}`}></img>
                             <div className="overview_text_container">
                                 <p className="overview_text">Choose Northern Lights Lodge as the unique,
                                 impressive setting for your next family gathering, corporate retreat,

@@ -1,0 +1,32 @@
+{
+    "indoor": [
+        {
+            "image": "interiorImgOne",
+            "description": "Featured in Forbes, this home is truly spectacular and loaded with amenities for the ultimate Montana getaway."
+        },
+        {
+            "image": "interiorImgTwo",
+            "description": "Built with cedar tree beam supports, chestnut flooring, and custom cabinetry made from reclaimed local barnwood, Northern Lights Lodge boasts incredible vaulted ceilings and architectural features."
+        },
+        {
+            "image": "interiorImgThree",
+            "description": "The home has an elevator for easy access to all four floors, 5 gas fireplaces and a central media system."
+        },
+        {
+            "image": "interiorImgFour",
+            "description": "There is abundant room for hosting in the gourmet kitchen, complete with commercial grade appliances, granite countertops, horseshoe-shaped breakfast bar, and all the amenities needed to create memorable meals together. There are three additional kitchenettes throughout the home that service the lodging areas."
+        },
+        {
+            "image": "interiorImgFive",
+            "description": "After a long day of skiing or hiking, you can hang up your gear in the locker room and unwind in the sauna or in-ground hot tub."
+        },
+        {
+            "image": "interiorImgSix",
+            "description": "The relaxation continues as you take in a movie in the private theater room, featuring surround sound, red velvet throughout and cozy seating for your whole group."
+        },
+        {
+            "image": "interiorImgSeven",
+            "description": "Enjoy the outdoors and panoramic views from the outdoor grilling kitchen, featuring a stone-carved dining area."
+        }
+    ]
+}
