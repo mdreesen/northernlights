@@ -364,7 +364,7 @@
 }
 
 /* Overview */
-.summer {
+.overview_summer {
   background-image: url('./images/2D07064DE8654E42B78FD162B34CC5E7.webp');
   position: absolute;
   width: 100%;
@@ -376,7 +376,7 @@
   background-size: cover;
 }
 
-.fall {
+.overview_fall {
   background-image: url('./images/northernlightfall.webp');
   position: absolute;
   width: 100%;
@@ -388,9 +388,17 @@
   background-size: cover;
 }
 
-.overviewImageOne {
+.greatroom_summer {
   background-image: url('./images/78996E96DEEA4235BD09BFB19C5416E5.webp');
-  /* background-image: url('./images/F6C0ED1AD1974DEA8A54EEA6CAF52AA0.webp'); */
+  height: 75vh;
+  width: 650px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+}
+
+.greatroom_fall {
+  background-image: url('./images/northernlightsgreatroom.webp');
   height: 75vh;
   width: 650px;
   background-position: center;
@@ -403,10 +411,6 @@
   place-content: flex-end;
   position: relative;
   width: 50%;
-}
-
-.overview_one_container {
-
 }
 
 .overview_two {

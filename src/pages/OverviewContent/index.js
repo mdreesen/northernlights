@@ -1,6 +1,5 @@
 import React from 'react';
-// import Parallax from 'react-rellax'
-
+import seasons from '../../utils/seasons';
 import FeatureCards from '../../components/FeatureCards';
 
 const OverviewContent = () => {
@@ -16,7 +15,7 @@ const OverviewContent = () => {
                         <p className="overview_text">Choose Northern Lights Lodge as the unique,
                             impressive setting for your next family gathering, corporate retreat,
                             or intimate wedding.</p>
-                            <img className="overviewImageOne"></img>
+                            <img className={`greatroom_${seasons()}`}></img>
                         </div>
                     </div>
                     <div className="overview_two">
