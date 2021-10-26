@@ -171,6 +171,7 @@
 
 .about_text {
   width: 30%;
+  text-align: center;
 }
 
 .aboutImgOne {
@@ -228,56 +229,14 @@
   filter: opacity(0.1);
 }
 
-.interior_0 {
+.right_asset {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin: 18vh 2vh;
 }
 
-.interior_1 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_2 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_4 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_5 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_6 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 18vh 2vh;
-}
-
-.interior_7 {
+.left_asset {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -539,6 +498,7 @@
   .about_text {
     width: 350px;
     margin: 20px auto;
+    text-align: center;
   }
 
   .about_one {
@@ -594,48 +554,7 @@
     width: 92%;
   }
 
-  .interior_1 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-
-  .interior_2 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-
-  .interior_3 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-  .interior_4 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-
-  .interior_5 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-
-  .interior_6 {
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20vh 1%;
-  }
-
-  .interior_7 {
+  .interior {
     display: block;
     justify-content: space-evenly;
     align-items: center;
@@ -704,6 +623,7 @@
   .about_text {
     width: 320px;
     margin: 20px auto;
+    text-align: center;
   }
 
   .about_one {

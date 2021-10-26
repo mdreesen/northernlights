@@ -11,17 +11,28 @@ const InteriorContent = () => {
     const Description = () => {
         return (
             descriptionData.indoor.map((item, index) => {
-                return (
-                    <div className={`interior_${index}`}>
+                const assetSwitch = index % 2 === 0 ? 'right_asset' : 'left_asset';
+                return index % 2 === 0 && !browserwidth ? (
+                    <div className={assetSwitch}>
                         <img className={item.image}></img>
                         {!browserwidth ? (
                             <div className="interior_divider"></div>
                         ) : (
-                            <div/>
-                        )}
+                                <div />
+                            )}
                         <p className="about_text">{item.description}</p>
                     </div>
-                );
+                ) : (
+                        <div className="interior">
+                            <img className={item.image}></img>
+                            {!browserwidth ? (
+                                <div className="interior_divider"></div>
+                            ) : (
+                                    <div />
+                                )}
+                            <p className="about_text">{item.description}</p>
+                        </div>
+                    )
             })
         );
     }
@@ -34,7 +45,7 @@ const InteriorContent = () => {
                 </div>
             ) : (
                     <div data-aos="fade-in" className="interiorImgContainer">
-                    <Description />
+                        <Description />
                     </div>
                 )}
         </section>
