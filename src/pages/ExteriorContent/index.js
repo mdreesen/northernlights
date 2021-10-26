@@ -1,7 +1,10 @@
 import React from 'react';
 import 'aos/dist/aos.css';
+import descriptionData from '../../utils/discriptionData.json';
 
 const ExteriorContent = () => {
+
+    console.log(descriptionData);
 
     const browserwidth = window.innerWidth < 960
 

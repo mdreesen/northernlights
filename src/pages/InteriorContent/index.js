@@ -12,18 +12,9 @@ const InteriorContent = () => {
         return (
             descriptionData.indoor.map((item, index) => {
                 const assetSwitch = index % 2 === 0 ? 'right_asset' : 'left_asset';
-                return index % 2 === 0 && !browserwidth ? (
-                    <div className={assetSwitch}>
-                        <img className={item.image}></img>
-                        {!browserwidth ? (
-                            <div className="interior_divider"></div>
-                        ) : (
-                                <div />
-                            )}
-                        <p className="about_text">{item.description}</p>
-                    </div>
-                ) : (
-                        <div className="interior">
+                if (!browserwidth) {
+                    return index % 2 === 0 ? (
+                        <div className={assetSwitch}>
                             <img className={item.image}></img>
                             {!browserwidth ? (
                                 <div className="interior_divider"></div>
@@ -32,22 +23,34 @@ const InteriorContent = () => {
                                 )}
                             <p className="about_text">{item.description}</p>
                         </div>
-                    )
+                    ) : (
+                            <div className={assetSwitch}>
+                                <p className="about_text">{item.description}</p>
+                                {!browserwidth ? (
+                                    <div className="interior_divider"></div>
+                                ) : (
+                                        <div />
+                                    )}
+                                <img className={item.image}></img>
+                            </div>
+                        )
+                } else {
+                    return (
+                        <div className="interior">
+                            <img className={item.image}></img>
+                            <p className="about_text">{item.description}</p>
+                        </div>
+                    );
+                }
             })
         );
-    }
+    };
 
     return (
         <section className="about">
-            {browserwidth ? (
-                <div data-aos="fade-in" className="aboutImgContainer">
-                    <Description />
-                </div>
-            ) : (
-                    <div data-aos="fade-in" className="interiorImgContainer">
-                        <Description />
-                    </div>
-                )}
+            <div data-aos="fade-in" className="aboutImgContainer">
+                <Description />
+            </div>
         </section>
     );
 }
