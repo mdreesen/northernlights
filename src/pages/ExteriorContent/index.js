@@ -4,7 +4,7 @@ import descriptionData from '../../utils/discriptionData.json';
 
 const ExteriorContent = () => {
 
-    console.log(descriptionData);
+    console.log(descriptionData.exterior);
 
     const browserwidth = window.innerWidth < 960
 
