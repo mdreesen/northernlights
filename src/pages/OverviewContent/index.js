@@ -9,13 +9,13 @@ const OverviewContent = () => {
     return (
         <section className="about">
             {browserwidth ? (
-                <div data-aos="fade-in" className="aboutImgContainer">
+                <div className="aboutImgContainer">
                     <div className="about_one">
                         <div className="overview_one_container">
-                        <p className="overview_text">Choose Northern Lights Lodge as the unique,
+                        <p data-aos="fade-in" className="overview_text">Choose Northern Lights Lodge as the unique,
                             impressive setting for your next family gathering, corporate retreat,
                             or intimate wedding.</p>
-                            <img className={`greatroom_${seasons()}`}></img>
+                            <img data-aos="fade-in" className={`greatroom_${seasons()}`}></img>
                         </div>
                     </div>
                     <div className="overview_two">
@@ -24,10 +24,10 @@ const OverviewContent = () => {
                         </div>
                 </div>
             ) : (
-                    <div data-aos="fade-in" className="aboutImgContainer">
+                    <div className="aboutImgContainer">
                         <div className="about_one">
-                            <img className={`greatroom_${seasons()}`}></img>
-                            <div className="overview_text_container">
+                            <img data-aos="fade-in" className={`greatroom_${seasons()}`}></img>
+                            <div data-aos="fade-in" className="overview_text_container">
                                 <p className="overview_text">Choose Northern Lights Lodge as the unique,
                                 impressive setting for your next family gathering, corporate retreat,
                             or intimate wedding.</p>

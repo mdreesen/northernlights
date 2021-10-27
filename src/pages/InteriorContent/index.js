@@ -4,8 +4,6 @@ import descriptionData from '../../utils/discriptionData.json';
 
 const InteriorContent = () => {
 
-    console.log(descriptionData.indoor)
-
     const browserwidth = window.innerWidth < 960
 
     const Description = () => {
@@ -14,7 +12,7 @@ const InteriorContent = () => {
                 const assetSwitch = index % 2 === 0 ? 'right_asset' : 'left_asset';
                 if (!browserwidth) {
                     return index % 2 === 0 ? (
-                        <div className={assetSwitch}>
+                        <div key={`interior-${index}`}  className={assetSwitch}>
                             <img className={item.image}></img>
                             {!browserwidth ? (
                                 <div className="interior_divider"></div>
@@ -24,7 +22,7 @@ const InteriorContent = () => {
                             <p className="about_text">{item.description}</p>
                         </div>
                     ) : (
-                            <div className={assetSwitch}>
+                            <div key={`interior-${index}`} className={assetSwitch}>
                                 <p className="about_text">{item.description}</p>
                                 {!browserwidth ? (
                                     <div className="interior_divider"></div>

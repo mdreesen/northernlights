@@ -10,7 +10,7 @@ const Exterior = () => {
             <section>
                 <div className="homeImgContainer">
                     <h1 className="headerOneText">Outside Features</h1>
-                    <Parallax speed={1}>
+                    <Parallax speed={-2}>
                         <img className="topImg"></img>
                     </Parallax>
                 </div>
