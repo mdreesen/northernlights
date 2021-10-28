@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <div className="homeImgContainer">
             <h1 className="headerOneText">Northern Lights</h1>
-            <Parallax speed={-2}>
+            <Parallax speed={-1}>
                 <img className={`overview_${seasons()}`}></img>
             </Parallax>
         </div>

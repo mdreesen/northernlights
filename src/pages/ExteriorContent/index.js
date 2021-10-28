@@ -4,7 +4,7 @@ import descriptionData from '../../utils/discriptionData.json';
 
 const ExteriorContent = () => {
 
-    const browserwidth = window.innerWidth < 960
+    const browserwidth = window.innerWidth < 960 || window.screen.width < 960
 
     const Description = () => {
         return (
@@ -34,7 +34,7 @@ const ExteriorContent = () => {
                         )
                 } else {
                     return (
-                        <div className="interior">
+                        <div key={`exterior-${index}`} className="interior">
                             <img className={item.image}></img>
                             <p className="about_text">{item.description}</p>
                         </div>

@@ -10,13 +10,17 @@ const Exterior = () => {
             <section>
                 <div className="homeImgContainer">
                     <h1 className="headerOneText">Outside Features</h1>
-                    <Parallax speed={-2}>
+                    <Parallax speed={-1}>
                         <img className="topImg"></img>
                     </Parallax>
                 </div>
             </section>
-            <Suspense fallback={<div/>}>
-                <ExteriorContent />
+            <Suspense fallback={<div />}>
+                <section>
+                    <div className="content_section">
+                        <ExteriorContent />
+                    </div>
+                </section>
             </Suspense>
         </div>
     );
