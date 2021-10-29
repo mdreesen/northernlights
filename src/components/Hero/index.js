@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="homeImgContainer">
             <h1 className="headerOneText">Northern Lights</h1>
             <Parallax speed={-1}>
-                <img className={`overview_${seasons()}`}></img>
+                <picture className={`overview_${seasons()}`}></picture>
             </Parallax>
         </div>
     );

@@ -15,7 +15,7 @@ const OverviewContent = () => {
                         <p data-aos="fade-in" className="overview_text">Choose Northern Lights Lodge as the unique,
                             impressive setting for your next family gathering, corporate retreat,
                             or intimate wedding.</p>
-                            <img data-aos="fade-in" className={`greatroom_${seasons()}`}></img>
+                            <picture data-aos="fade-in" className={`greatroom_${seasons()}`}></picture>
                         </div>
                     </div>
                     <div className="overview_two">
@@ -26,7 +26,7 @@ const OverviewContent = () => {
             ) : (
                     <div className="aboutImgContainer">
                         <div className="about_one">
-                            <img data-aos="fade-in" className={`greatroom_${seasons()}`}></img>
+                            <picture data-aos="fade-in" className={`greatroom_${seasons()}`}></picture>
                             <div data-aos="fade-in" className="overview_text_container">
                                 <p className="overview_text">Choose Northern Lights Lodge as the unique,
                                 impressive setting for your next family gathering, corporate retreat,
