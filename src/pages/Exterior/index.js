@@ -7,7 +7,7 @@ const ExteriorContent = lazy(() => import('../ExteriorContent'))
 const Exterior = () => {
     return (
         <div>
-            <section>
+            <section className="top_section">
                 <div className="homeImgContainer">
                     <h1 className="headerOneText">Outside Features</h1>
                     <Parallax speed={-1}>

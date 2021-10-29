@@ -7,7 +7,7 @@ const Hero = lazy(() => import('../../components/Hero'));
 const Overview = () => {
     return (
         <div>
-        <section>
+        <section className="top_section">
         <Suspense fallback={<div/>}>
             <Hero />
         </Suspense>

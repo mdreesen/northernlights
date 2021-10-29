@@ -107,6 +107,10 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
+.top_section {
+  margin-bottom: 16vh;
+}
+
 /* Homepage Styling */
 .homeImgContainer {
   width: 100%;
@@ -147,7 +151,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 18vh;  
 }
 
 .about_one {
@@ -375,7 +378,7 @@
 
 .overview_text {
   width: 96%;
-  text-align: left;
+  text-align: center;
   font-size: 33px;
   line-height: 97px;
   letter-spacing: 4px;

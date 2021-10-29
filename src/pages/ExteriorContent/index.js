@@ -13,7 +13,7 @@ const ExteriorContent = () => {
                 if (!browserwidth) {
                     return index % 2 === 0 ? (
                         <div key={`exterior-${index}`} className={assetSwitch}>
-                            <picture className={item.image}></picture>
+                            <img className={item.image}></img>
                             {!browserwidth ? (
                                 <div className="interior_divider"></div>
                             ) : (
@@ -29,13 +29,13 @@ const ExteriorContent = () => {
                                 ) : (
                                         <div />
                                     )}
-                                <picture className={item.image}></picture>
+                                <img className={item.image}></img>
                             </div>
                         )
                 } else {
                     return (
                         <div key={`exterior-${index}`} className="interior">
-                            <picture className={item.image}></picture>
+                            <img className={item.image}></img>
                             <p className="about_text">{item.description}</p>
                         </div>
                     );

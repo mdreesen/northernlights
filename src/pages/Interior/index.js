@@ -5,7 +5,7 @@ import InteriorContent from '../InteriorContent';
 
 const Interior = () => {
     return (
-        <section>
+        <section className="top_section">
             <div className="homeImgContainer">
                 <h1 className="headerOneText">Inside Features</h1>
                 <Parallax speed={-1}>
